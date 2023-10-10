@@ -1,0 +1,18 @@
+let places:string[]=["Makkah","Madian","Jerusilam","Istambol"];
+console.log("in orignaol form\n")
+console.log(places)
+console.log("\n i alphabetical form")
+console.log([...places].sort())
+console.log("in orignaol form\n")
+console.log(places)
+console.log("in reverse alphabetical form\n")
+console.log([...places].sort().reverse())
+console.log("reverse the order\n")
+console.log([...places].reverse())
+console.log("reverse again \n")
+console.log([...places].reverse().reverse())
+console.log("in orignaol form\n")
+console.log(places)
+let e=[...places].sort();
+console.log(Object.keys(e).reverse())
+console.log(Object.keys(places))
